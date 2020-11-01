@@ -1,0 +1,74 @@
+@import "reset.css";
+
+@font-face {
+  font-family: "ArialBlack";
+  src: url("../fonts/ArialBlack.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+    font-size: 10px;
+}
+
+canvas {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+  color: black;
+}
+
+a:hover {
+  color: #1F78FF;
+}
+
+
+
+/* grid-column: col 5/ span 4;
+grid-row: row 2; */
+
+.menu_grid {
+  display: grid;
+  grid-template-columns: repeat(4, [col] 1fr);
+  grid-template-rows: repeat(1, [row] auto);
+  grid-column-gap: 1em;
+  /* grid-row-gap: 5em; */
+  margin: 2em;
+  text-align: center;
+  font-size: 3em;
+
+  font-family: "ArialBlack";
+}
+
+p {
+  color: black;
+  font-family: "ArialBlack";
+  font-size: 20em;
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ,,,, */
